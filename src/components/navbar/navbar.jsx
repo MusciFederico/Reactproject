@@ -24,13 +24,12 @@ const dropdownItemStyle = {
 };
 
 const arraydeproductos = [
-    "electronics",
-    "jewelery",
-    "men's clothing",
-    "women's clothing"
+    "gold",
+    "silver",
+    "tungsten",
 ];
 
-const AppNavbar = () => {
+const Navbarapp = () => {
     const cantidadProductosEnCarrito = 5;
 
     return (
@@ -83,4 +82,4 @@ const AppNavbar = () => {
     );
 };
 
-export default AppNavbar;
+export default Navbarapp;
