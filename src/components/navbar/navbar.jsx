@@ -73,7 +73,7 @@ const Navbarapp = () => {
                     <NavLink to="/" style={navItemStyle}>
                         Novedades
                     </NavLink>
-                    <NavLink to="/" style={navItemStyle}>
+                    <NavLink to="/cart" style={navItemStyle}>
                         <CardWidget cantidad={cantidadProductosEnCarrito} />
                     </NavLink>
                 </Nav>
